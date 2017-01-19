@@ -1,0 +1,9 @@
+@import "../../commons/commons";
+
+#app-logo{
+	$logo-dimension: 150px;
+	width: $logo-dimension;
+	height: $logo-dimension;
+	flex: 0 0 $logo-dimension;
+	background: lightgray;
+}

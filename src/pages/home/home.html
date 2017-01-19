@@ -1,0 +1,18 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Home</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <div class="layout layout-pri-start">
+        <h2>{{ countdownMessagePrefix }}</h2>
+        {{ countdownTimeRemaining }}
+        <hr>
+        <h2>{{ statusMessage }}</h2>
+        <h3>Event that uses barcode</h3>
+
+
+        <button ion-button outline (click)="openProfilePage()">Open Barcode for Scanning</button>
+    </div>
+</ion-content>

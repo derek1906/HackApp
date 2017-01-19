@@ -1,0 +1,26 @@
+.layout{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	justify-content: center;	/* horizontal */
+	align-items: center;    	/* vertical */
+}
+.layout-row{
+	flex-direction: row;
+}
+.layout-column{
+	flex-direction: column;
+}
+.layout-sec-start{
+	align-items: flex-start;
+}
+.layout-sec-end{
+	align-items: flex-end;
+}
+.layout-pri-start{
+	justify-content: flex-start;
+}
+.layout-pri-end{
+	justify-content: flex-end;
+}

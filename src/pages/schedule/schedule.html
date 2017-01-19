@@ -1,0 +1,22 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Schedule
+        </ion-title>
+    </ion-navbar>
+    <ion-toolbar>
+	    <ion-segment [(ngModel)]="dayOfWeek">
+			<ion-segment-button value="friday">Friday</ion-segment-button>
+			<ion-segment-button value="saturday">Saturday</ion-segment-button>
+			<ion-segment-button value="sunday">Sunday</ion-segment-button>
+	    </ion-segment>
+	  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+	<div class="schedule-content" padding>
+		<h1>4:30pm</h1>
+		<h1>Current Event Name</h1>
+		<button ion-button clear>Room #</button>
+	</div>
+</ion-content>

@@ -1,0 +1,17 @@
+import { Component } from '@angular/core';
+
+import { NavController } from 'ionic-angular';
+
+@Component({
+    selector: 'page-schedule',
+    templateUrl: 'schedule.html'
+})
+export class SchedulePage {
+
+	dayOfWeek: string = "friday";
+
+    constructor(public navCtrl: NavController) {
+
+    }
+
+}
